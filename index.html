@@ -9,34 +9,35 @@
     <link rel="stylesheet" href="style.css">
 
     <title>To Do List</title>
+    
 </head>
 <body>
     <div class = "conteudo">
         <div class = "topo">
-            <input type="Tarefa" id="txt1" placeholder="Nova Tarefa">
-            <button id="botaoTarefa"><i class="fa fa-plus"></i></button>
+            <input type="Tarefa" id="texto-tarefa" placeholder="Nova Tarefa">
+            <button id="botao-tarefa"><i class="fa fa-plus"></i></button>
         </div>
-        <ul id = "listaTarefas">
+        <ul id = "lista-tarefas">
         </ul>
     </div>
     
-    <div id = "janelaEdicao">
-    <button id = "fecharEdicao">
+    <div id = "janela-edicao">
+    <button id = "fechar-edicao">
         <i class = "fa fa-remove fa-2x"></i>
     </button>
-    <h2 id = "idTarefaEdicao"></h2>
+    <h2 id = "id-tarefa-edicao"></h2>
     <hr>
     <form>
         <div class="frm-linha">
             <label for="nome">Nome: </label>
-            <input type="text" id="editarNomeTarefa" placeholder="Digite o novo nome">
+            <input type="text" id="editar-nome-tarefa" placeholder= "Insira o novo nome da tarefa">
         </div>
         <div class="frm-linha">
-            <button id="atualizarTarefa">Salvar alteração</button>
+            <button id="atualizar-tarefa">Salvar alteração</button>
         </div>
     </form>
     </div>
-    <div id="janelaFundo"></div>
+    <div id="janela-fundo"></div>
     <script src="script.js"></script>
 </body>
 </html>

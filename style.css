@@ -46,13 +46,13 @@ body{
     cursor:pointer;
 }
 
-#listaTarefas{
+#lista-tarefas{
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-#listaTarefas li{
+#lista-tarefas li{
     margin-top: 15px;
     padding: 20px;
     background: #191818;
@@ -76,7 +76,7 @@ body{
     background: #3c3a3a;
 }
 
-#janelaFundo{
+#janela-fundo{
     position: fixed;
     top:0;
     background-color: black;
@@ -87,11 +87,11 @@ body{
     right: 0;
     display:none;
 }
-#janelaFundo.abrir{
+#janela-fundo.abrir{
     display: block !important;
 }
 
-#fecharEdicao{
+#fechar-edicao{
     position: absolute;
     top: -25px;
     right: -18px;
@@ -105,7 +105,7 @@ body{
     cursor: pointer;
 }
 
-#janelaEdicao{
+#janela-edicao{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -118,7 +118,7 @@ body{
     z-index: 200;
     display:none;
 }
-#janelaEdicao.abrir{
+#janela-edicao.abrir{
     display: block !important;
 }
 form{
